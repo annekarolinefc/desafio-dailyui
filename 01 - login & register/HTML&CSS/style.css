@@ -1,67 +1,95 @@
-@media (max-width:667px){
-    *{
-        padding: 0;
-        margin: 0;
-        font-family: "Poppins", sans-serif;
-        background-color: #531919;
-        box-sizing: border-box;
-        text-decoration: none;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #531919;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    background-color: #531919;
+}
+
+.app-title{
+    align-items: center;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.name-app-1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;   
+    font-size: 50px;
+}
+
+.name-app-2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    font-size: 30px;
+
+}
+
+div{
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0px 58px;
+}
+.signup{
+    background-color: #563535;
+    height: 44px;
+    width: 258px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 163px;
+    margin-bottom: 30px;
+}
+.login{
+    background-color: #311F0B;
+    height: 44px;
+    width: 258px;
+    border-radius: 30px;
+    border: none;
+}
+.login a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #311f08;
+}
+.signup a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #563535;
+}
+
+@media(max-width: 1024px){
+    html{
+        display: flex;
     }
-    
-    
     body{
-        width: 100%;
-        background-color: #531919;
+        align-items: center;
+        margin-top: 250px;
     }
-    
-    .name-app{
-        color: #ffffff;
-        padding-top: 176px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .buttons {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        padding: 0px 58px;
-    }
-    
-    .signup{
-        background-color: #563535;
-        height: 44px;
-        width: 258px;
-        border-radius: 30px;
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        margin-top: 163px;
-        margin-bottom: 30px;
-        border: none;
-    }
-    
-    .login{
-        background-color: #311F0B;
-        height: 44px;
-        width: 258px;
-        border-radius: 30px;
-        border: none;
-    }
+}
 
-    .login a{
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        background-color: #311f08;
+@media (max-width:667px){   
+    .app-title{
+        align-items: center;
+        margin-top: 20px;
     }
-
-    .signup a{
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        background-color: #563535;
-    }
-
 }
