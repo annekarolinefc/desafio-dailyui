@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+
+body{
+    height: 1024px;
+    width: 1440px;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #531919;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+
+.elementos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.checkout{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    height: 1024px;
+    width: 994px;
+}
+.imgxdesc{
+    display: flex;
+    flex-direction: row;
+}
+.product-des{
+    width: 500px;
+}
+.img-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.conjunto-ceramica-01{
+    width: 350px;
+    height: 382px;
+    margin-top: 104px;
+    margin-left: 114px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.title-product{
+    font-size: 32px;
+    font-weight:300;
+    padding-top: 52px;
+    padding-left: 52px;
+
+}
+.preco{
+    padding-left: 52px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+.div-desc{
+    height: 108px;
+    width: 455px;
+}
+.descrition{
+    padding-left: 52px;
+    font-size: 18px;
+    padding-top: 35px;
+}
+.shipping{
+    padding-left: 197px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 36px;
+}
+.imgs{
+    padding-top: 54.5px;
+    padding-left: 55px;
+}
+
+img{
+    height: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.conjunto-ceramica-02{
+    margin-left: 55px;
+}
+.total{
+    color: #531919;
+    font-size: 20px;
+}
+
+.price{
+    color: #531919;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.order-total{
+    text-align: end;
+    padding-right: 45px;
+}
+
+.payment-method{
+    background-color: #8D6565;
+    width: 446px;
+    height: 1024px;
+}
+.title-payment{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 58px;
+    padding-left: 62px;
+}
+.card{
+    width: 298px;
+    height: 222px;
+    background-color: #531919;
+    border-radius: 15px;
+    margin-top: 95px;
+    margin-left: 81px;
+    margin-right: 81px;
+    padding-top: 50px;
+    box-shadow: 0px 4px 4px rgba(83,25,25,1);
+
+}
+.card-divide{
+    display: flex;
+    flex-direction: row;
+}
+
+.card p{
+    color: #ffffff;
+}
+
+.card-holder{
+    align-items: flex-start;
+}
+.expire-date{
+    align-items: flex-end;
+}
+.card-number{
+    font-size: 14px;
+    padding-left: 15px;
+}
+.number-card{
+    font-size: 22px;
+    padding-left: 15px;
+    padding-top: 1px;
+}
+.card-holder-2{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 26px
+}
+.name{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 1px;
+}
+.date-espire{
+    font-size: 14px;
+    text-align: end;
+    padding-top: 26px;
+    padding-left: 29px;
+}
+.date{
+    font-size: 18px;
+    text-align: end;
+    padding-top: 1px;
+    padding-left: 29px;
+}
+.form{
+    padding-left: 63px;
+}
+.name-card{
+    padding-top: 33px;
+}
+.name-card, .card-number, .date-exp, .cvv-text{
+    font-size: 16px;
+}
+
+#name-card{
+    font-size: 16px;
+    background-color: #ffffff;
+}
+.card-number, .date-exp, .save, .cvv{
+    padding-top: 33px;
+}
+.four-number{
+    display: flex;
+    flex-direction: row;
+}
+.card-number-1{
+    width: 60px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.card-number-2, .card-number-3, .card-number-4{
+    width: 60px;
+    height: 28px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.date-cvv{
+    display: flex;
+    flex-direction: row;
+}
+#cvv{
+    height: 28px;
+    width: 60px;
+    border-radius: 5px;
+}
+.cvv{
+    padding-left: 127px;
+}
+#month, #day{
+    width: 60px;
+    height: 28px;
+    border-radius: 5px;
+}
+.save{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.button-submit{
+    margin-top: 122px;
+    width: 208px;
+    height: 44px;
+    background-color: #531919;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(83,25,25,1);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
